@@ -1,16 +1,28 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+import pygame as pg
+from game_objects import *
+import sys
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('N1kros_10')
+class Game:
+    def __init__(self):
+        pass
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    def new_game(self):
+        pass
+
+    def update(self):
+        pass
+
+    def draw(self):
+        pass
+
+    def check_event(self):
+        pass
+
+    def run(self):
+        pass
+
+
+if __name__ == "__main__":
+    game = Game()
+    game.run()
